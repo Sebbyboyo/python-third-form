@@ -37,7 +37,7 @@ C) char = [A]
 
  
 
-Answer:  
+Answer:  B
 
  
 
@@ -71,7 +71,7 @@ Which the value that is a Float:
 
  
 
-Answer: 
+Answer: 100.0
 
  
 
@@ -88,7 +88,10 @@ Calculate a 10% discount (Price multiplied by 0.9) and print: "The new price for
  
 
 Answer: 
-
+item = input("enter a name of an item")
+price = float(input("enter the price of the item must be a decimal number"))
+new_price = price * 0.9
+print("the new price for {} is {}".format(item, new_price))
 
  
 
@@ -113,3 +116,14 @@ Print: "Access Granted: [is_allowed]".
  
 
 Answer: 
+initial = input("Enter your Member Code (Initial): ")
+
+# 2. Ask for Age (Integer)
+age = int(input("Enter your Age: "))
+
+# 3. Create boolean variable is_allowed (True if over 18)
+is_allowed = age > 18
+
+# 4. Print: Access Granted: [is_allowed]
+print(f"Access Granted: {is_allowed}")
+
