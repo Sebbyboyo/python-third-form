@@ -1,0 +1,22 @@
+question 1 
+code = "python"
+user = input("enter the secret code: ")
+enter the secret code: 
+if user == code:
+    print("access granted")
+
+    question 2:
+    num = int(input("Enter a number: "))
+
+if num % 2 == integer:
+    print("Even number")
+
+    question 3 
+age = int(input("enter your age: ")
+
+if age >= 13:
+          print("teenager")
+
+else:
+    print("child")
+
